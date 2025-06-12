@@ -11,4 +11,10 @@ function generateHTMLGrid() {
         gridBox.classList.add("gridItem");
         container.appendChild(gridBox);
     }
+
+    container.addEventListener("mouseover", (e) => {
+        if (e.target != container) {
+            e.target.setAttribute("style", "background-color: grey;");
+        }
+    });
 }
