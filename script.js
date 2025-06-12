@@ -9,7 +9,6 @@ function generateHTMLGrid() {
     for (let i = 0; i < (GRID_SIZE ** 2); i++) {
         const gridBox = document.createElement("div");
         gridBox.classList.add("gridItem");
-        gridBox.textContent = i;
         container.appendChild(gridBox);
     }
 }

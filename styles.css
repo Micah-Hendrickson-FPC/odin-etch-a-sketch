@@ -1,9 +1,11 @@
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gridItem {
-    background-color: palevioletred;
+    background-color: rgb(241, 237, 237);
     flex-basis: 6%;
+    padding-bottom: 6%;
 }
