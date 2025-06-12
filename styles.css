@@ -1,7 +1,26 @@
 .container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.grid-container {
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button-header {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.refresh {
+    padding: 14px 20px;
+    border-radius: 12px;
+    font-size: 16px;
 }
 
 .gridItem {
