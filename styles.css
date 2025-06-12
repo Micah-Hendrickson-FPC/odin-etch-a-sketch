@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gridItem {
+    background-color: palevioletred;
+    flex-basis: 6%;
+}

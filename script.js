@@ -1,0 +1,15 @@
+"use strict";
+
+generateHTMLGrid();
+
+function generateHTMLGrid() {
+    const GRID_SIZE = 16;
+    const container = document.querySelector(".container");
+
+    for (let i = 0; i < (GRID_SIZE ** 2); i++) {
+        const gridBox = document.createElement("div");
+        gridBox.classList.add("gridItem");
+        gridBox.textContent = i;
+        container.appendChild(gridBox);
+    }
+}
